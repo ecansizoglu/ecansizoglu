@@ -453,68 +453,8 @@ a.ext-link:hover,
   font-size: 1rem;
   color: var(--ink-light);
   line-height: 1.8;
+  max-width: 680px;
 }
-
-.research-img-top {
-  display: block;
-  width: 300px;
-  max-width: 100%;
-  height: 200px;
-  object-fit: contain;
-  object-position: left center;
-  border: 1px solid var(--rule);
-  border-radius: 2px;
-  margin: 0.8rem 0 1rem 0;
-  background: var(--paper-warm);
-}
-
-.research-img-row {
-  display: flex;
-  gap: 1rem;
-  margin: 0.8rem 0 1rem 0;
-}
-
-.research-img-row .research-img-top {
-  margin: 0;
-  width: 200px;
-  height: 160px;
-}
-
-@media (max-width: 480px) {
-  .research-img-row {
-    flex-direction: column;
-  }
-
-  .research-img-row .research-img-top {
-    width: 100%;
-    height: 160px;
-  }
-}
-
-.research-videos {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1.2rem;
-  flex-wrap: wrap;
-}
-
-.research-videos iframe {
-  flex: 1;
-  min-width: 200px;
-  aspect-ratio: 16 / 9;
-  height: auto;
-  border: 1px solid var(--rule);
-  border-radius: 2px;
-}
-
-@media (max-width: 768px) {
-  .research-videos iframe {
-    min-width: 100%;
-  }
-}
-
-
-
 
 /* ===== FOOTER ===== */
 footer {
